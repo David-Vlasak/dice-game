@@ -28,7 +28,8 @@ function rollDice(){
     document.querySelector(`#dice${diceThrow1}`).classList.toggle("invisible");
     
     previousDiceThrown1 = diceThrow1;
-
+//I am adding this comment
+//I am adding this comment as well
 ///////////////////////////////////////
 
     var diceThrow2 = Math.floor((Math.random() * 6) + 7);
